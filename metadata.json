@@ -1,0 +1,6 @@
+{
+  "name": "Kelvin Dear | Coldwell Banker Realty",
+  "description": "Premium modern real estate experience for Kelvin Dear, REALTOR® with Coldwell Banker Realty. Explore Arizona West Valley properties, neighborhoods, and personalized buying and selling guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-cb-navy: #082B62;
+  --color-cb-midnight: #061A3A;
+  --color-cb-ivory: #F7F5F0;
+  --color-cb-champagne: #C8B58B;
+  --color-cb-muted: #667085;
+  --color-cb-border: #E5E7EB;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #061A3A;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom focus styles for strict WCAG AA keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #082B62;
+  outline-offset: 2px;
+}
